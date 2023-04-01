@@ -7,7 +7,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
-class PostController extends BaseController
+class PostController2 extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
